@@ -9,13 +9,31 @@
 /* Begin PBXBuildFile section */
 		0538BE40273B360B00365C81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE3F273B360B00365C81 /* AppDelegate.swift */; };
 		0538BE42273B360B00365C81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE41273B360B00365C81 /* SceneDelegate.swift */; };
-		0538BE44273B360B00365C81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE43273B360B00365C81 /* ViewController.swift */; };
 		0538BE47273B360B00365C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0538BE45273B360B00365C81 /* Main.storyboard */; };
 		0538BE49273B360D00365C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0538BE48273B360D00365C81 /* Assets.xcassets */; };
 		0538BE4C273B360D00365C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0538BE4A273B360D00365C81 /* LaunchScreen.storyboard */; };
 		0538BE57273B360D00365C81 /* Babys_SisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE56273B360D00365C81 /* Babys_SisterTests.swift */; };
 		0538BE61273B360D00365C81 /* Babys_SisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE60273B360D00365C81 /* Babys_SisterUITests.swift */; };
 		0538BE63273B360D00365C81 /* Babys_SisterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE62273B360D00365C81 /* Babys_SisterUITestsLaunchTests.swift */; };
+		0538BE71273B367300365C81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE70273B367300365C81 /* LoginViewController.swift */; };
+		0538BE73273B367F00365C81 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE72273B367F00365C81 /* CadastroViewController.swift */; };
+		0538BE75273B36AB00365C81 /* Baba_CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE74273B36AB00365C81 /* Baba_CadastroViewController.swift */; };
+		0538BE77273B36C600365C81 /* Baba_PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE76273B36C600365C81 /* Baba_PerfilViewController.swift */; };
+		0538BE79273B36E800365C81 /* Baba_PerfilPaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE78273B36E800365C81 /* Baba_PerfilPaisViewController.swift */; };
+		0538BE7B273B371C00365C81 /* Pais_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE7A273B371C00365C81 /* Pais_HomeViewController.swift */; };
+		0538BE7D273B37B600365C81 /* Pais_PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE7C273B37B600365C81 /* Pais_PerfilViewController.swift */; };
+		0538BE7F273B37D200365C81 /* Pais_PessoalPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE7E273B37D200365C81 /* Pais_PessoalPerfilViewController.swift */; };
+		0538BE81273B37FD00365C81 /* Pais_BabaPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE80273B37FD00365C81 /* Pais_BabaPerfilViewController.swift */; };
+		0538BE83273B399000365C81 /* CustonCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE82273B399000365C81 /* CustonCellTableViewCell.swift */; };
+		0538BE87273B39D600365C81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE86273B39D600365C81 /* User.swift */; };
+		0538BE8B273B4FB900365C81 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0538BE8A273B4FB900365C81 /* FirebaseAuth */; };
+		0538BE8D273B4FB900365C81 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0538BE8C273B4FB900365C81 /* FirebaseDatabase */; };
+		0538BE8F273B4FB900365C81 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0538BE8E273B4FB900365C81 /* FirebaseFirestore */; };
+		0538BE93273B53AF00365C81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0538BE92273B53AF00365C81 /* GoogleService-Info.plist */; };
+		0538BE96273DE9F900365C81 /* CodableFirebase in Frameworks */ = {isa = PBXBuildFile; productRef = 0538BE95273DE9F900365C81 /* CodableFirebase */; };
+		0538BE98273DEF2F00365C81 /* RecuperacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE97273DEF2F00365C81 /* RecuperacaoViewController.swift */; };
+		0538BE9A273DF10400365C81 /* Pais_PedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE99273DF10400365C81 /* Pais_PedidosViewController.swift */; };
+		0538BE9C273DF8F400365C81 /* Baba_PedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538BE9B273DF8F300365C81 /* Baba_PedidosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +57,6 @@
 		0538BE3C273B360B00365C81 /* Babys-Sister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Babys-Sister.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0538BE3F273B360B00365C81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0538BE41273B360B00365C81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0538BE43273B360B00365C81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0538BE46273B360B00365C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0538BE48273B360D00365C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0538BE4B273B360D00365C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,21 @@
 		0538BE5C273B360D00365C81 /* Babys-SisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Babys-SisterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0538BE60273B360D00365C81 /* Babys_SisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babys_SisterUITests.swift; sourceTree = "<group>"; };
 		0538BE62273B360D00365C81 /* Babys_SisterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babys_SisterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0538BE70273B367300365C81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0538BE72273B367F00365C81 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		0538BE74273B36AB00365C81 /* Baba_CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baba_CadastroViewController.swift; sourceTree = "<group>"; };
+		0538BE76273B36C600365C81 /* Baba_PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baba_PerfilViewController.swift; sourceTree = "<group>"; };
+		0538BE78273B36E800365C81 /* Baba_PerfilPaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baba_PerfilPaisViewController.swift; sourceTree = "<group>"; };
+		0538BE7A273B371C00365C81 /* Pais_HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pais_HomeViewController.swift; sourceTree = "<group>"; };
+		0538BE7C273B37B600365C81 /* Pais_PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pais_PerfilViewController.swift; sourceTree = "<group>"; };
+		0538BE7E273B37D200365C81 /* Pais_PessoalPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pais_PessoalPerfilViewController.swift; sourceTree = "<group>"; };
+		0538BE80273B37FD00365C81 /* Pais_BabaPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pais_BabaPerfilViewController.swift; sourceTree = "<group>"; };
+		0538BE82273B399000365C81 /* CustonCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonCellTableViewCell.swift; sourceTree = "<group>"; };
+		0538BE86273B39D600365C81 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0538BE92273B53AF00365C81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0538BE97273DEF2F00365C81 /* RecuperacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecuperacaoViewController.swift; sourceTree = "<group>"; };
+		0538BE99273DF10400365C81 /* Pais_PedidosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pais_PedidosViewController.swift; sourceTree = "<group>"; };
+		0538BE9B273DF8F300365C81 /* Baba_PedidosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baba_PedidosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0538BE8D273B4FB900365C81 /* FirebaseDatabase in Frameworks */,
+				0538BE8B273B4FB900365C81 /* FirebaseAuth in Frameworks */,
+				0538BE96273DE9F900365C81 /* CodableFirebase in Frameworks */,
+				0538BE8F273B4FB900365C81 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +135,13 @@
 		0538BE3E273B360B00365C81 /* Babys-Sister */ = {
 			isa = PBXGroup;
 			children = (
+				0538BE88273B476E00365C81 /* SupportingFiles */,
+				0538BE85273B39CA00365C81 /* Model */,
+				0538BE84273B399500365C81 /* View */,
+				0538BE6F273B364D00365C81 /* Controller */,
 				0538BE3F273B360B00365C81 /* AppDelegate.swift */,
 				0538BE41273B360B00365C81 /* SceneDelegate.swift */,
-				0538BE43273B360B00365C81 /* ViewController.swift */,
-				0538BE45273B360B00365C81 /* Main.storyboard */,
-				0538BE48273B360D00365C81 /* Assets.xcassets */,
-				0538BE4A273B360D00365C81 /* LaunchScreen.storyboard */,
+				0538BE92273B53AF00365C81 /* GoogleService-Info.plist */,
 				0538BE4D273B360D00365C81 /* Info.plist */,
 			);
 			path = "Babys-Sister";
@@ -127,6 +164,51 @@
 			path = "Babys-SisterUITests";
 			sourceTree = "<group>";
 		};
+		0538BE6F273B364D00365C81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0538BE70273B367300365C81 /* LoginViewController.swift */,
+				0538BE72273B367F00365C81 /* CadastroViewController.swift */,
+				0538BE97273DEF2F00365C81 /* RecuperacaoViewController.swift */,
+				0538BE74273B36AB00365C81 /* Baba_CadastroViewController.swift */,
+				0538BE76273B36C600365C81 /* Baba_PerfilViewController.swift */,
+				0538BE78273B36E800365C81 /* Baba_PerfilPaisViewController.swift */,
+				0538BE9B273DF8F300365C81 /* Baba_PedidosViewController.swift */,
+				0538BE7A273B371C00365C81 /* Pais_HomeViewController.swift */,
+				0538BE7C273B37B600365C81 /* Pais_PerfilViewController.swift */,
+				0538BE7E273B37D200365C81 /* Pais_PessoalPerfilViewController.swift */,
+				0538BE80273B37FD00365C81 /* Pais_BabaPerfilViewController.swift */,
+				0538BE99273DF10400365C81 /* Pais_PedidosViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0538BE84273B399500365C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0538BE82273B399000365C81 /* CustonCellTableViewCell.swift */,
+				0538BE45273B360B00365C81 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0538BE85273B39CA00365C81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0538BE86273B39D600365C81 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0538BE88273B476E00365C81 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0538BE4A273B360D00365C81 /* LaunchScreen.storyboard */,
+				0538BE48273B360D00365C81 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +225,12 @@
 			dependencies = (
 			);
 			name = "Babys-Sister";
+			packageProductDependencies = (
+				0538BE8A273B4FB900365C81 /* FirebaseAuth */,
+				0538BE8C273B4FB900365C81 /* FirebaseDatabase */,
+				0538BE8E273B4FB900365C81 /* FirebaseFirestore */,
+				0538BE95273DE9F900365C81 /* CodableFirebase */,
+			);
 			productName = "Babys-Sister";
 			productReference = 0538BE3C273B360B00365C81 /* Babys-Sister.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +303,10 @@
 				Base,
 			);
 			mainGroup = 0538BE33273B360B00365C81;
+			packageReferences = (
+				0538BE89273B4FB900365C81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0538BE94273DE9F800365C81 /* XCRemoteSwiftPackageReference "CodableFirebase" */,
+			);
 			productRefGroup = 0538BE3D273B360B00365C81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +325,7 @@
 			files = (
 				0538BE4C273B360D00365C81 /* LaunchScreen.storyboard in Resources */,
 				0538BE49273B360D00365C81 /* Assets.xcassets in Resources */,
+				0538BE93273B53AF00365C81 /* GoogleService-Info.plist in Resources */,
 				0538BE47273B360B00365C81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +351,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0538BE44273B360B00365C81 /* ViewController.swift in Sources */,
+				0538BE7F273B37D200365C81 /* Pais_PessoalPerfilViewController.swift in Sources */,
+				0538BE83273B399000365C81 /* CustonCellTableViewCell.swift in Sources */,
+				0538BE77273B36C600365C81 /* Baba_PerfilViewController.swift in Sources */,
+				0538BE7D273B37B600365C81 /* Pais_PerfilViewController.swift in Sources */,
+				0538BE71273B367300365C81 /* LoginViewController.swift in Sources */,
+				0538BE79273B36E800365C81 /* Baba_PerfilPaisViewController.swift in Sources */,
+				0538BE87273B39D600365C81 /* User.swift in Sources */,
 				0538BE40273B360B00365C81 /* AppDelegate.swift in Sources */,
+				0538BE9A273DF10400365C81 /* Pais_PedidosViewController.swift in Sources */,
+				0538BE73273B367F00365C81 /* CadastroViewController.swift in Sources */,
 				0538BE42273B360B00365C81 /* SceneDelegate.swift in Sources */,
+				0538BE81273B37FD00365C81 /* Pais_BabaPerfilViewController.swift in Sources */,
+				0538BE75273B36AB00365C81 /* Baba_CadastroViewController.swift in Sources */,
+				0538BE7B273B371C00365C81 /* Pais_HomeViewController.swift in Sources */,
+				0538BE9C273DF8F400365C81 /* Baba_PedidosViewController.swift in Sources */,
+				0538BE98273DEF2F00365C81 /* RecuperacaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +724,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0538BE89273B4FB900365C81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		0538BE94273DE9F800365C81 /* XCRemoteSwiftPackageReference "CodableFirebase" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alickbass/CodableFirebase";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0538BE8A273B4FB900365C81 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0538BE89273B4FB900365C81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0538BE8C273B4FB900365C81 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0538BE89273B4FB900365C81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0538BE8E273B4FB900365C81 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0538BE89273B4FB900365C81 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0538BE95273DE9F900365C81 /* CodableFirebase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0538BE94273DE9F800365C81 /* XCRemoteSwiftPackageReference "CodableFirebase" */;
+			productName = CodableFirebase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0538BE34273B360B00365C81 /* Project object */;
 }
